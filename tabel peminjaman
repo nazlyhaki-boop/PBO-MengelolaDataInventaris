@@ -1,0 +1,10 @@
+CREATE TABLE peminjaman (
+    id_pinjam INT AUTO_INCREMENT PRIMARY KEY,
+    id_barang INT,
+    id_peminjam INT,
+    tanggal_pinjam DATE,
+    tanggal_kembali DATE,
+    status VARCHAR(20),
+    FOREIGN KEY (id_barang) REFERENCES barang(id_barang),
+    FOREIGN KEY (id_peminjam) REFERENCES peminjam(id_peminjam)
+);
