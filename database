@@ -1,0 +1,2 @@
+CREATE DATABASE db_inventaris;
+USE db_inventaris;
