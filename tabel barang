@@ -1,0 +1,5 @@
+CREATE TABLE barang (
+    id_barang INT AUTO_INCREMENT PRIMARY KEY,
+    nama_barang VARCHAR(100),
+    stok INT
+);
