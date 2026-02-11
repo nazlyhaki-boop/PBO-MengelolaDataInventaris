@@ -1,0 +1,5 @@
+CREATE TABLE peminjam (
+    id_peminjam INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    no_hp VARCHAR(20)
+);
